@@ -22,7 +22,7 @@ const CryptoPunksitem = (props) => {
     
                             </Card.Text>
                             <div style={{ textAlign: 'center' }}>
-                                <Button variant="primary" >Ofertar</Button>
+                                <Button variant="primary" href='/contacto' >Ofertar</Button>
                             </div>
                         </Card.Body>
                     </Card>
