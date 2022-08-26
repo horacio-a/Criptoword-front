@@ -111,13 +111,13 @@ function Footer() {
                                 </div>
                             </h6>
                             <p>
-                                <a href="/" class='footer'>Medio de pago</a>
+                                <a href="/FAQ" class='footer'>Medio de pago</a>
                             </p>
                             <p>
-                                <a href="/" class='footer'>Configuraciones</a>
+                                <a href="/FAQ" class='footer'>Configuraciones</a>
                             </p>
                             <p>
-                                <a href="/" class='footer'>Ayuda</a>
+                                <a href="/FAQ" class='footer'>Ayuda</a>
                             </p>
                         </Col>
                         <Col>
