@@ -27,14 +27,10 @@ function navbar() {
             <NavLink href="/contacto">Contacta con nosotros</NavLink>
             <NavDropdown title="Nuestros servicios" id="basic-nav-dropdown">
               <NavDropdown.Item href="/mineria">Mineria</NavDropdown.Item>
-              <NavDropdown.Item href="/staking">
-                Staking
-              </NavDropdown.Item>
+
               <NavDropdown.Item href="/NFT">NFT</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/criptocard">
-                Aproximamente cryptocard
-              </NavDropdown.Item>
+
             </NavDropdown>
             <Nav.Link href="/FAQ">FAQ</Nav.Link>
           </Nav>

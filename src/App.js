@@ -27,8 +27,6 @@ function App() {
         <Route path='contacto' element={<ContactoPage />}/>
         <Route path='mineria' element={<MineraPage />}/>
         <Route path='NFT' element={<NFTPage />}/>
-        <Route path='staking' element={<StakingPage />}/>
-        <Route path='criptocard' element={<CriptocardPage/>}></Route>
         <Route path='FAQ' element={<FAQPage />}/>
       </Routes>
       </BrowserRouter>

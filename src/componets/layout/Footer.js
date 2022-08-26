@@ -95,13 +95,7 @@ function Footer() {
                                 <a href="/Mineria" class='footer' >Mineria</a>
                             </p>
                             <p>
-                                <a href="/Staking" class='footer' >Staking</a>
-                            </p>
-                            <p>
                                 <a href="/NFT" class='footer'>NFT</a>
-                            </p>
-                            <p>
-                                <a href="/Criptocard" class='footer'>Cryptocard</a>
                             </p>
                         </Col>
                         <Col>
