@@ -1,0 +1,275 @@
+/*
+fonts
+
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+
+
+.logo{
+    width: 100px;
+    height: 65,5px;
+}
+
+
+.margen{
+    margin: 100px;
+
+}
+
+.carousel-Caption {
+    margin-bottom: 75px;
+    color: white;
+    opacity: 400%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.textdenima {
+    font-family: 'Oswald', sans-serif;
+    opacity: 100%;
+    box-sizing: border-box;
+    margin-top: 40%;
+    color: white;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.tex {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+    white-space: normal;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    text-decoration: underline none;
+}
+
+
+
+#titulos {
+    color: white;
+    background-color: #061121;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+
+
+
+}
+.titulos2{
+    color: gray;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.titulos3{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-left: 90px;
+
+
+}
+.barraseparar2{
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-bottom: 45px;
+
+    margin-right: 100px;
+    background-color: #F4F4F4;
+    opacity: 0.2;
+    height: 1px;
+   
+}
+.boton-boder{
+    border-color: #f8f9fa;
+}
+
+.imagenes {
+    background-color: #061121;
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+
+}
+
+.ima-nom:hover {
+    transform: scale(1.2);
+}
+
+.nombres {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    padding-bottom: 15px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.texto1 {
+    display: inline-flex;
+    justify-content: center;
+    color: grey;
+    margin-top: 0%;
+    background: #061121;
+    padding-top: 15px;
+    border-right: solid grey 0.5px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-bottom: 105px;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.texto1-notborder {
+    display: inline-flex;
+    justify-content: center;
+    color: grey;
+    margin-top: 0%;
+    background: #061121;
+    padding-top: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-bottom: 105px;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+.texto2{
+    color: rgb(156, 156, 156);
+    text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+
+.contact {
+    margin-bottom: 15px;
+}
+
+
+.barraseparar {
+    box-sizing: border-box;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    background-color: #F4F4F4;
+    opacity: 0.2;
+    height: 1px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    background-color: #212529;
+    
+
+}
+.icon-color{
+    color: white;
+}
+
+.footer {
+    background: #212529;
+    color: #979d9e;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-title {
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.card-body {
+    background-color: #061121;
+
+}
+/* .col{
+    display: flex;
+    justify-content: center;
+} */
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.columna{
+    display: inline-block;
+    flex-direction: column;
+}
+
+
+.NFT{
+    margin: 25px;
+    display: inline-flex;   
+    justify-content: center;
+
+}
+
+.center{
+text-align: center;
+}
+
+.titulo{  
+    color: white;
+    background-color: #061121;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.colornegro{
+    background-color: #061121;
+    color: white;
+
+}
