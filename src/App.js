@@ -6,11 +6,9 @@ import Header from './componets/layout/Header';
 import ContactoPage from './pages/ContactoPage';
 import IdexPage from './pages/IndexPage';
 import MineraPage from './pages/MineriaPage';
-import StakingPage from './pages/StakingPage';
 import NosotrosPage from './pages/NosotrosPage';
 import NFTPage from "./pages/NFTPage";
 import FAQPage from './pages/FAQPage';
-import CriptocardPage from './pages/CriptocardPage';
 
 
 
