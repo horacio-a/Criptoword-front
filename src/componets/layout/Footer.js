@@ -73,8 +73,9 @@ function Footer() {
                     <Row>
                         <Col fluid>
                             <img
-                                style={{ height: 45,  textAlign: 'center',marginBottom: 15,
-                            }}
+                                style={{
+                                    height: 45, textAlign: 'center', marginBottom: 15,
+                                }}
                                 src="imagenes/Logotipo Criptoword fondo negro.png"
                                 alt="Criptoword"
                             />
@@ -86,8 +87,8 @@ function Footer() {
                             </p>
                         </Col>
                         <Col><h5 class="text-uppercase fw-bold mb-4" >
-                            <div style={{marginBottom: 30}}>
-                            Nuestros servicios
+                            <div style={{ marginBottom: 30 }}>
+                                Nuestros servicios
 
                             </div>
                         </h5>
@@ -100,8 +101,8 @@ function Footer() {
                         </Col>
                         <Col>
                             <h6 class="text-uppercase fw-bold mb-4">
-                            <div style={{marginBottom: 30}}>
-                                FAQ
+                                <div style={{ marginBottom: 30 }}>
+                                    FAQ
                                 </div>
                             </h6>
                             <p>
@@ -121,10 +122,14 @@ function Footer() {
                             <p><i class="fas fa-home me-3"></i>Neuquen, nqn 8324, AR</p>
                             <p>
                                 <i class="fas fa-envelope me-3"></i>
-                                Horaciomatiasalbornoz@gmail.com
+                                Criptoword@gmail.com
                             </p>
-                            <p><i class="fas fa-phone me-3"></i>+54 299 5------</p>
-                            <p><i class="fas fa-print me-3"></i>+54 011 5------ </p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                Criptowordventas@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i>+54 011-5524168</p>
+                            <p><i class="fas fa-phone me-3"></i>+54 299-5758449</p>
                         </Col>
                     </Row>
                 </Container>
