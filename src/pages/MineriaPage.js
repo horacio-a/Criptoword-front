@@ -4,18 +4,18 @@ import axios from 'axios';
 
 
 const MineriaPage = (props) => {
-    // const [loading, setLoading] = useState(false)
-    // const [mineria, setMineria] = useState([])
-    // useEffect(() => {
-    //     const cargarMineria = async () => {
-    //         setLoading(true);
-    //         const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/mineria`);
-    //         setMineria(response.data)
-    //         setLoading(false)
-    //     }
-    //     cargarMineria();
+    const [loading, setLoading] = useState(false)
+    const [mineria, setMineria] = useState([])
+    useEffect(() => {
+        const cargarMineria = async () => {
+            setLoading(true);
+            const response = await axios.get('https://criptowordback.herokuapp.com/api/NFT');
+            setMineria(response.data)
+            setLoading(false)
+        }
+        cargarMineria();
 
-    // }, []);
+    }, []);
 
 
 
@@ -29,7 +29,7 @@ const MineriaPage = (props) => {
             <section className="holder"> </section>
             <div class='barraseparar'></div>
 
-            {/* <div className="center">
+            <div className="center">
                 {
                     loading ? (
                         <p>cargando...</p>
@@ -50,7 +50,7 @@ const MineriaPage = (props) => {
                         />)
                     )
                 }
-            </div> */}
+            </div>
            
         </div>
     );
