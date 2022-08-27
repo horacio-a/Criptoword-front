@@ -9,7 +9,7 @@ const MineriaPage = (props) => {
     useEffect(() => {
         const cargarMineria = async () => {
             setLoading(true);
-            const response = await axios.get('https://criptowordback.herokuapp.com/api/mineria');
+            const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/mineria`);
             setMineria(response.data)
             setLoading(false)
         }
