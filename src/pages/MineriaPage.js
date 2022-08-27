@@ -9,7 +9,7 @@ const MineriaPage = (props) => {
     useEffect(() => {
         const cargarMineria = async () => {
             setLoading(true);
-            const response = await axios.get('https://criptowordback.herokuapp.com/api/NFT');
+            const response = await axios.get('https://criptowordback.herokuapp.com/api/mineria');
             setMineria(response.data)
             setLoading(false)
         }
