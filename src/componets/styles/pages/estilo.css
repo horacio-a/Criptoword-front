@@ -8,13 +8,13 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 
-.logo{
+.logo {
     width: 100px;
-    height: 65,5px;
+    height: 65, 5px;
 }
 
 
-.margen{
+.margen {
     margin: 100px;
 
 }
@@ -26,7 +26,7 @@ font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Oswald', sans-serif;
 }
 
-.centrar{
+.centrar {
     display: flex;
     justify-content: center;
 }
@@ -83,13 +83,15 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 }
-.titulos2{
+
+.titulos2 {
     color: gray;
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
 
 }
-.titulos3{
+
+.titulos3 {
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -97,7 +99,8 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 }
-.barraseparar2{
+
+.barraseparar2 {
     box-sizing: border-box;
     margin-top: 25px;
     margin-bottom: 45px;
@@ -106,9 +109,10 @@ font-family: 'Roboto Condensed', sans-serif;
     background-color: #F4F4F4;
     opacity: 0.2;
     height: 1px;
-   
+
 }
-.boton-boder{
+
+.boton-boder {
     border-color: #f8f9fa;
 }
 
@@ -150,6 +154,7 @@ font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Noto Sans', sans-serif;
 
 }
+
 .texto1-notborder {
     display: inline-flex;
     justify-content: center;
@@ -165,7 +170,8 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 }
-.texto2{
+
+.texto2 {
     color: rgb(156, 156, 156);
     text-align: justify;
     margin-left: 90px;
@@ -196,10 +202,15 @@ font-family: 'Roboto Condensed', sans-serif;
     display: flex;
     justify-content: center;
     background-color: #212529;
-    
+
 
 }
-.icon-color{
+
+.icon-color:hover {
+    color: #007AFF;
+}
+
+.icon-color {
     color: white;
 }
 
@@ -234,6 +245,7 @@ font-family: 'Roboto Condensed', sans-serif;
     background-color: #061121;
 
 }
+
 /* .col{
     display: flex;
     justify-content: center;
@@ -243,24 +255,24 @@ font-family: 'Roboto Condensed', sans-serif;
     justify-content: center;
 }
 
-.columna{
+.columna {
     display: inline-block;
     flex-direction: column;
 }
 
 
-.NFT{
+.NFT {
     margin: 25px;
-    display: inline-flex;   
+    display: inline-flex;
     justify-content: center;
 
 }
 
-.center{
-text-align: center;
+.center {
+    text-align: center;
 }
 
-.titulo{  
+.titulo {
     color: white;
     background-color: #061121;
     display: flex;
@@ -268,8 +280,81 @@ text-align: center;
     font-family: 'Oswald', sans-serif;
 }
 
-.colornegro{
+.colornegro {
     background-color: #061121;
     color: white;
 
+}
+
+button.ButtonIndex{
+    background: none;
+    border: #F4F4F4 1px solid;
+    width: 10%;
+    height: 10%;
+}
+
+button.ButtonIndex:hover{
+    background-color: #F4F4F4;
+    color: #212529;
+}
+
+section.holder.nft {
+    width: 100%;
+    min-height: 35vh;
+}
+
+section.holder.nft  .center{
+    width: 100%;
+    height: 15vh;
+}
+
+
+section.holder.nft  .center .item{
+    height: 100%;
+}
+.loader {
+	--color: white;
+	--size-mid: 6vmin;
+	--size-dot: 1.5vmin;
+	--size-bar: 0.4vmin;
+	--size-square: 3vmin;
+	
+	display: block;
+	position: relative;
+	width: 100%;
+    height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.loader::before,
+.loader::after {
+	content: '';
+	box-sizing: border-box;
+	position: absolute;
+
+}
+
+.loader.--1::before {
+	width: var(--size-mid);
+	height: var(--size-mid);
+	border: 4px solid var(--color);
+	border-top-color: transparent;
+	border-radius: 50%;
+	animation: loader-1 3s linear infinite;
+}
+
+.loader.--1::after {
+	width: calc(var(--size-mid) - 2px);
+	height: calc(var(--size-mid) - 2px);
+	border: 2px solid transparent;
+	border-top-color: var(--color);
+	border-radius: 50%;
+	animation: loader-1 5s linear reverse infinite;
+}
+
+@keyframes loader-1 {
+	100% {
+		transform: rotate(1turn);
+	}
 }

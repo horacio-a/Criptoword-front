@@ -32,8 +32,9 @@ const MineriaPage = (props) => {
             <div className="center">
                 {
                     loading ? (
-                        <p>cargando...</p>
-
+                        <div class="item">
+                            <i class="loader --1"></i>
+                        </div>
                     ) : (
 
                         mineria.map(item => <AsicsItem key={item.id}

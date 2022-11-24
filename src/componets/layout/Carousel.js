@@ -12,9 +12,9 @@ function Carouse() {
                     alt="First slide"
                 />               
                 <Carousel.Caption>
-                    <div class='carousel-Caption'>
+                    <div className='carousel-Caption'>
                     <h3>ENTRAN AL MUNDO NFT DE LA MANO DE CRIPTOWORD Y OPENSEA</h3>
-                    <a href="/NFT">   <Button variant="light" size='lg'>Acceder</Button></a>
+                    <a href="/NFT">   <Button  className='ButtonIndex'>Acceder</Button></a>
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -26,9 +26,9 @@ function Carouse() {
                 />
 
                 <Carousel.Caption>
-                <div class='carousel-Caption'>
+                <div className='carousel-Caption'>
                     <h3>ENTRAN AL MUNDO NFT DE LA MANO DE CRIPTOWORD Y OPENSEA</h3>
-                    <a href="/NFT"><Button variant="light" size='lg'>Acceder</Button></a>
+                    <a href="/NFT"><Button className='ButtonIndex'>Acceder</Button></a>
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -40,10 +40,10 @@ function Carouse() {
                 />
 
                 <Carousel.Caption>
-                <div class='carousel-Caption'>
+                <div className='carousel-Caption'>
 
                     <h3>ENTRAN AL MUNDO NFT DE LA MANO DE CRIPTOWORD Y OPENSEA</h3>
-                    <a href="/NFT"> <Button variant="light" size='lg'>Acceder</Button></a>
+                    <a href="/NFT"> <Button  className='ButtonIndex'>Acceder</Button></a>
                     </div>  
                 </Carousel.Caption>
             </Carousel.Item>

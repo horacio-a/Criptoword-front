@@ -4,15 +4,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const FAQPage = (props) => {
+
     return (
         <div>
-
             <div class='barraseparar'></div>
-
             <div id='titulos'>
                 <h2>Preguntas Frecuentes</h2>
             </div>
-
             <div class='barraseparar'></div>
             <Container fluid>
                 <Row>
@@ -25,9 +23,6 @@ const FAQPage = (props) => {
                     <Col></Col>
                 </Row>
             </Container>
-
-
-
             <div class='texto2'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio, quae quia
                 libero

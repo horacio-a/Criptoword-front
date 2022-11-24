@@ -9,7 +9,7 @@ const NFTPage = (props) => {
     useEffect(() => {
         const cargarNFT = async () => {
             setLoading(true);
-            const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/NFT` );
+            const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/NFT`);
             setNFT(response.data)
             setLoading(false)
         }
@@ -20,7 +20,7 @@ const NFTPage = (props) => {
 
 
     return (
-        <section className="holder">
+        <section className="holder nft">
             <div class='barraseparar'></div>
             <h2 className="titulo">NFT's</h2>
             <div class='barraseparar'></div>
@@ -29,7 +29,9 @@ const NFTPage = (props) => {
 
                 {
                     loading ? (
-                        <p>cargando...</p>
+                        <div class="item">
+                            <i class="loader --1"></i>
+                        </div>
 
                     ) : (
 
@@ -51,7 +53,9 @@ const NFTPage = (props) => {
 
                 {
                     loading ? (
-                        <p>cargando...</p>
+                        <div class="item">
+                            <i class="loader --1"></i>
+                        </div>
 
                     ) : (
 

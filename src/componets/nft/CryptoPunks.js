@@ -6,13 +6,13 @@ import Card from 'react-bootstrap/Card';
                 
 
 const CryptoPunksitem = (props) => {
-    const {key,  name, price, owmer, imagen, collection, body, coin } = props;    
-    if (collection == 'CryptoPunks') {
+    const {  name, price, owmer, imagen, collection, body, coin } = props;    
+    if (collection === 'CryptoPunks') {
         return (
         
             <div className='NFT'>
                     <Card style={{ width: '18rem' }}>
-                        <img src={imagen} style={{ height: '18rem', background: "#061121" }} />
+                        <img src={imagen} style={{ height: '18rem', background: "#061121" }} alt='' />
                         <Card.Body>
                             <Card.Title>{name}</Card.Title>
                             <Card.Text>
