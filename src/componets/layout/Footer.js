@@ -7,67 +7,61 @@ import "../styles/pages/estilo.css"
 function Footer() {
     return (
         <footer className='footer'>
-            <Container fluid>
-                <div className='barraseparar' ></div>
-                <Row>
-                    <Col xs={3}></Col>
-                    <Col>
-                        <div className='icons'>
-                            <a href="https://www.facebook.com">
-                                <div className='icon-color'>
-                                    <i className="fa-brands fa-facebook-square" ></i>
-                                </div>
-                            </a>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className='icons'>
-                            <a href="https://twitter.com/home">
-                                <div className='icon-color'>
-                                    <i className="fab fa-twitter"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className='icons'>
-                            <a href="https://www.google.com">
-                                <div className='icon-color'>
-                                    <i className="fab fa-google"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className='icons'>
-                            <a href="https://www.instagram.com">
-                                <div className='icon-color'>
-                                    <i className="fa-brands fa-instagram"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className='icons'>
-                            <a href="https://linkedin.com/home">
-                                <div className='icon-color'>
-                                    <i className="fab fa-linkedin"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className='icons'>
-                            <a href="https://www.github.com">
-                                <div className='icon-color'>
-                                    <i className="fab fa-github"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </Col>
-                    <Col xs={3}></Col>
-                </Row>
-            </Container>
+            <div className='barraseparar5'></div>
+
+            <div className='conteiner-redes'>
+                <div className='conteiner-icons'>
+                    <div className='icons'>
+                        <a href="https://www.facebook.com">
+                            <div className='icon-color'>
+                                <i className="fa-brands fa-facebook-square" ></i>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className='icons'>
+                        <a href="https://twitter.com/home">
+                            <div className='icon-color'>
+                                <i className="fab fa-twitter"></i>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className='icons'>
+                        <a href="https://www.google.com">
+                            <div className='icon-color'>
+                                <i className="fab fa-google"></i>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className='icons'>
+                        <a href="https://www.instagram.com">
+                            <div className='icon-color'>
+                                <i className="fa-brands fa-instagram"></i>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className='icons'>
+                        <a href="https://linkedin.com/home">
+                            <div className='icon-color'>
+                                <i className="fab fa-linkedin"></i>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className='icons'>
+                        <a href="https://www.github.com">
+                            <div className='icon-color'>
+                                <i className="fab fa-github"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
             <div className='barraseparar'></div>
             <div className='footer'>
                 <Container>
