@@ -10,6 +10,7 @@ const NFTPage = (props) => {
         const cargarNFT = async () => {
             setLoading(true);
             const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/NFT`);
+            console.log(process.env.REACT_APP_API_URL)
             setNFT(response.data)
             setLoading(false)
         }

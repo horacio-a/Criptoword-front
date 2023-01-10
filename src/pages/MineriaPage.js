@@ -10,6 +10,7 @@ const MineriaPage = (props) => {
         const cargarMineria = async () => {
             setLoading(true);
             const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/mineria`);
+            console.log(process.env.REACT_APP_API_URL)
             setMineria(response.data)
             setLoading(false)
         }
