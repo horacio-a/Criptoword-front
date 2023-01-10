@@ -1,3 +1,6 @@
+import React from 'react'
+
+
 import Carousel from 'react-bootstrap/Carousel';
 import "../styles/pages/estilo.css"
 import Button from 'react-bootstrap/esm/Button';
