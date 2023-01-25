@@ -78,10 +78,7 @@ function Footer() {
                                 alt="Criptoword"
                             />
                             <p className='footer'>
-                                Somos una empresa dedicada al mundo crypto.
-                                Traemos soluciones para las personas que no están dentro de este maravilloso mundo,
-                                facilitando el staking y la adquisición de NFTs y estableciendo los mejores precio en la
-                                minería con los rig´s y asic´s
+                                Somos Criptoword, especialistas en NFT y minería de criptomonedas. Ofrecemos servicios de minería de criptomonedas y asesoramiento en adquisición y almacenamiento seguro de NFT. Nuestro equipo de expertos está disponible para ayudarlo en cualquier momento. ¡Únase a nuestra comunidad de mineros y coleccionistas de NFT hoy!
                             </p>
                         </Col>
                         <Col><h5 className="text-uppercase fw-bold mb-4" >
